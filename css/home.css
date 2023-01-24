@@ -1,0 +1,93 @@
+
+body {
+    font-family: Helvetica;
+    background-image: url('../images/Minimalist-Presentation-Backgrounds-03.jpg');
+}
+ul {
+    border-style: solid;
+    border-width: 1px;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    background-color: rgb(74, 175, 167);
+}
+ul li {
+    /*border-style: solid;
+    border-width: 1px;*/
+    color:bisque;
+    list-style-type: none;
+    display: inline;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+ul li a:hover {
+    color: #99DDFF;
+    text-decoration: underline;
+
+}
+ul li.selected {
+    color: yellow
+}
+
+h1 {
+    padding: 0.5em;
+    background-color: blueviolet;
+    color: whitesmoke;
+    border-radius: 0.5em;
+}
+p {
+    color:bisque;
+
+}
+
+ul {
+    padding: 0.5em;
+    color:blanchedalmond
+}
+ol {
+    color:bisque;
+}
+h2 {
+    color:rgb(149, 104, 175);
+    background-color: #4c0072;
+    text-decoration: underline;
+}
+li {
+    color:bisque;
+}
+     
+table, th, td {
+    border: 1px solid violet;
+    border-collapse:collapse;
+}
+tr {
+    background-color: white;
+}
+th, td {
+    vertical-align: top;
+    padding: 0.5em;
+    text-align:left;
+}
+
+table.crossword,
+.crossword td
+{
+border: 1px solid black;
+border-collapse: collapse;
+}
+.crossword td
+{
+width: 3em;
+height: 3em;
+vertical-align: top;
+background-color: white;
+}
+.crossword .black
+{
+background-color: black;
+}
